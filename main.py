@@ -15,7 +15,7 @@ users = my_db['user_data']
 projects = my_db['project_info']
 bids = my_db['bids']
 
-# my_db.user_data.drop()
+# my_db.bids.drop()
 
 users.create_index("user_id", unique=True)
 users.create_index("username", unique=True)
